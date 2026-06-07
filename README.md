@@ -33,29 +33,3 @@ yolo-react/
 ├── ort-wasm-threaded.wasm
 └── ort-wasm-simd-threaded.wasm
 ```
-
-## 如何访问
-
-直接打开在线页面：
-
-```text
-https://aqwddda.github.io/yolo-react/
-```
-
-## 本地预览
-
-如果想在本地预览静态文件，可以使用任意静态服务器，例如：
-
-```bash
-python -m http.server 8000
-```
-
-然后访问：
-
-```text
-http://127.0.0.1:8000/
-```
-
-## 说明
-
-当前分支主要保存 GitHub Pages 部署后的静态构建产物。如果后续继续维护，建议保留源码分支，例如 `main` 或 `dev`，将 React 源代码、模型加载逻辑和构建脚本放在源码分支中，`gh-pages` 分支只用于部署。
